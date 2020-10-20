@@ -1,0 +1,15 @@
+git clone https://github.com/s18957/epg1_git
+cd epg1-git/
+git branch hw-18957
+git checkout rebase-me
+git rebase hw-18957
+git checkout hw-18957
+git merge rebase-me
+git checkout merge-me 
+git checkout hw-18957
+git merge merge-me
+git add README.md
+git commit -m "initial"
+touch solutions.txt
+vim solutions.txt
+git push --all
